@@ -24,18 +24,38 @@ public class PlayerManager : MonoBehaviour
 	{
 		//TO DO : mousebuttondown
 		rotation = Input.GetAxisRaw("Horizontal");
+		
+		if (Input.GetMouseButtonDown(0))
+        {
+			float pos = (Input.mousePosition.x * (rangePlayerPosX.y - rangePlayerPosX.x)) / Screen.width;
+			pos -= (rangePlayerPosX.y - rangePlayerPosX.x) / 2;
+        }
+		else if (Input.GetMouseButton(0))
+		{
+			
+		}
 
 	}
 
 	void FixedUpdate()
 	{
-		rb.MovePosition(rb.position + this.transform.forward * -moveSpeed * Time.fixedDeltaTime);
+		rb.MovePosition(rb.position + this.transform.forward * moveSpeed * Time.fixedDeltaTime);
 
 		Vector3 rotationY = Vector3.up * rotation * rotationSpeed * Time.fixedDeltaTime;
 		Quaternion deltaRotation = Quaternion.Euler(rotationY);
 		Quaternion targetRotation = rb.rotation * deltaRotation;
 		rb.MoveRotation(Quaternion.Slerp(rb.rotation, targetRotation, 50f * Time.fixedDeltaTime));
 	}
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Meteor")
+        {
+			Debug.Log("Failed");
+
+			//GameManager.instance.Restart();
+        }
+    }
 }
 
 /*public class PlayerManager : MonoBehaviour
@@ -52,7 +72,7 @@ public class PlayerManager : MonoBehaviour
 	public Vector2 rangePlayerPosX;
 
 	void Start()
-	{
+	{  
 		rb = GetComponent<Rigidbody>();
 		SetOffset();
 	}

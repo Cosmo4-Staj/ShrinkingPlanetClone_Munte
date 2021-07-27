@@ -11,7 +11,6 @@ public class PlayerGravityBody : MonoBehaviour
     // private varaibles
     private Rigidbody rb;
 
-
     void Start()
     {
         // get the only instance of attractor

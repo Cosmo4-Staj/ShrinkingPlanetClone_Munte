@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class Meteor : PlayerGravityBody
 {
-    //public SphereCollider sphereCol;
-
-    //public bool placeOnSurface = false;
+    public GameObject explosion;
+    public SphereCollider sphereCol;
+    public ParticleSystem trail;
 
     void OnCollisionEnter(Collision collision)
-    {
-        Quaternion rot = Quaternion.LookRotation(transform.position.normalized);
-        rot *= Quaternion.Euler(90f, 0f, 0f);
+    { 
+        /*Quaternion rot = Quaternion.LookRotation(transform.position.normalized);
+        rot *= Quaternion.Euler(90f, 0f, 0f);*/
 
-		//sphereCol.enabled = false;
+        GameObject exp = Instantiate(explosion, transform.position, transform.rotation);
+        trail.Stop(true, ParticleSystemStopBehavior.StopEmitting);
 
-		this.enabled = false;
-
-		Destroy(gameObject, 4f);
+        sphereCol.enabled = false;
+        this.enabled = false;
+        Destroy(gameObject);
     }
-
 }

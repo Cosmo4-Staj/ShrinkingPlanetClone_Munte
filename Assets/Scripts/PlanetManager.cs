@@ -8,6 +8,10 @@ public class PlanetManager : MonoBehaviour
 	{
 		get { return myTransform.localScale.x; }
 	}
+	public static float Score
+	{
+		get { return Size * 5f; }
+	}
 
 	private static Transform myTransform;
 
