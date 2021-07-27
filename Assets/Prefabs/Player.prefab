@@ -95,8 +95,9 @@ GameObject:
   - component: {fileID: 138598440672393175}
   - component: {fileID: 974018647952712104}
   - component: {fileID: 1653247736879612088}
+  - component: {fileID: 1354260014357489239}
   m_Layer: 0
-  m_Name: Player 1
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111,7 +112,7 @@ Transform:
   m_GameObject: {fileID: 3175003857841705510}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0.000022736, y: -0.01639, z: -5.3686}
-  m_LocalScale: {x: 0.39045262, y: 0.39045262, z: 0.39045262}
+  m_LocalScale: {x: 0.2951275, y: 0.2951275, z: 0.2951275}
   m_Children:
   - {fileID: 14977101751552415}
   - {fileID: 3383652436883265198}
@@ -211,9 +212,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cf0d9b77630ac04991534a11880d978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 8
   rotationSpeed: 200
   rangePlayerPosX: {x: 0, y: 0}
+  deathEffect: {fileID: 0}
+--- !u!65 &1354260014357489239
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3175003857841705510}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9107852, y: 1.1259153, z: 2.6642044}
+  m_Center: {x: 0.0000003874302, y: 0.06295733, z: -0.03892929}
 --- !u!1 &3416575948012947902
 GameObject:
   m_ObjectHideFlags: 0

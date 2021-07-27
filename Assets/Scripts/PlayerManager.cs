@@ -15,6 +15,8 @@ public class PlayerManager : MonoBehaviour
 
 	public Vector2 rangePlayerPosX;
 
+	public GameObject deathEffect;
+
 	void Start()
 	{
 		rb = this.GetComponent<Rigidbody>();
@@ -25,7 +27,7 @@ public class PlayerManager : MonoBehaviour
 		//TO DO : mousebuttondown
 		rotation = Input.GetAxisRaw("Horizontal");
 		
-		if (Input.GetMouseButtonDown(0))
+/*		if (Input.GetMouseButtonDown(0))
         {
 			float pos = (Input.mousePosition.x * (rangePlayerPosX.y - rangePlayerPosX.x)) / Screen.width;
 			pos -= (rangePlayerPosX.y - rangePlayerPosX.x) / 2;
@@ -33,7 +35,7 @@ public class PlayerManager : MonoBehaviour
 		else if (Input.GetMouseButton(0))
 		{
 			
-		}
+		}*/
 
 	}
 
@@ -51,7 +53,9 @@ public class PlayerManager : MonoBehaviour
     {
         if (collision.gameObject.tag == "Meteor")
         {
-			Debug.Log("Failed");
+			//Debug.Log("Failed");
+			Instantiate(deathEffect, transform.position, transform.rotation);
+			Destroy(gameObject);
 
 			//GameManager.instance.Restart();
         }
