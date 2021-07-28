@@ -9,7 +9,10 @@ public class GameManager : MonoBehaviour
     public static bool isGameStarted = false;
     public static bool isGameEnded = false;
     public static bool isGameAlreadyOpen = false;
-    
+
+    public GameObject gameOverUI;
+
+
     void Awake()
     {
         if (instance == null)
@@ -45,5 +48,6 @@ public class GameManager : MonoBehaviour
     public void OnLevelFailed()
     {
         isGameEnded = true;
+        gameOverUI.SetActive(true);
     }
 }

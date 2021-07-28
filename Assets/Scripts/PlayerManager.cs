@@ -4,113 +4,70 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
-	[Range(0, 15)]
-	public float moveSpeed = 10f;
+    [Range(0, 15)]
+    public float moveSpeed = 10f;
 
-	[Range(50, 250)]
-	public float rotationSpeed = 10f;
+    [Range(50, 250)]
+    public float rotationSpeed = 10f;
 
-	private Rigidbody rb;
-	private float rotation;
+    private Rigidbody rb;
+    private float rotation;
 
-	public Vector2 rangePlayerPosX;
+    public GameObject deathEffect;
 
-	public GameObject deathEffect;
+    private Touch theTouch;
+    private Vector2 touchStartPosition, touchEndPosition;
 
-	void Start()
-	{
-		rb = this.GetComponent<Rigidbody>();
-	}
+    void Start()
+    {
+        rb = this.GetComponent<Rigidbody>();
+    }
 
-	void Update()
-	{
-		//TO DO : mousebuttondown
-		rotation = Input.GetAxisRaw("Horizontal");
-		
-/*		if (Input.GetMouseButtonDown(0))
+    void Update()
+    {
+        //TO DO : mousebuttondown
+        //rotation = Input.GetAxisRaw("Horizontal");
+
+        if (Input.touchCount > 0)
         {
-			float pos = (Input.mousePosition.x * (rangePlayerPosX.y - rangePlayerPosX.x)) / Screen.width;
-			pos -= (rangePlayerPosX.y - rangePlayerPosX.x) / 2;
+            theTouch = Input.GetTouch(0);
+
+            if (theTouch.phase == TouchPhase.Began)
+            {
+                touchStartPosition = theTouch.position;
+            }
+
+            else if (theTouch.phase == TouchPhase.Moved || theTouch.phase == TouchPhase.Ended)
+            {
+                /*touchEndPosition = theTouch.position;
+
+                float x = touchEndPosition.x - touchStartPosition.x;
+                float y = touchEndPosition.y - touchStartPosition.y;*/
+
+                rotation = theTouch.deltaPosition.x * 0.1f;
+
+            }
         }
-		else if (Input.GetMouseButton(0))
-		{
-			
-		}*/
+    }
 
-	}
+    void FixedUpdate()
+    {
+        rb.MovePosition(rb.position + (-this.transform.right) * moveSpeed * Time.fixedDeltaTime);
 
-	void FixedUpdate()
-	{
-		rb.MovePosition(rb.position + this.transform.forward * moveSpeed * Time.fixedDeltaTime);
-
-		Vector3 rotationY = Vector3.up * rotation * rotationSpeed * Time.fixedDeltaTime;
-		Quaternion deltaRotation = Quaternion.Euler(rotationY);
-		Quaternion targetRotation = rb.rotation * deltaRotation;
-		rb.MoveRotation(Quaternion.Slerp(rb.rotation, targetRotation, 50f * Time.fixedDeltaTime));
-	}
+        Vector3 rotationY = Vector3.up * rotation * rotationSpeed * Time.fixedDeltaTime;
+        Quaternion deltaRotation = Quaternion.Euler(rotationY);
+        Quaternion targetRotation = rb.rotation * deltaRotation;
+        rb.MoveRotation(Quaternion.Slerp(rb.rotation, targetRotation, 50f * Time.fixedDeltaTime));
+    }
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Meteor")
         {
-			//Debug.Log("Failed");
-			Instantiate(deathEffect, transform.position, transform.rotation);
-			Destroy(gameObject);
+            Instantiate(deathEffect, transform.position, transform.rotation);
+            GameManager.instance.OnLevelFailed();
 
-			//GameManager.instance.Restart();
+            Destroy(gameObject);            
         }
     }
 }
-
-/*public class PlayerManager : MonoBehaviour
-{
-	public float moveSpeed = 10f;
-	public float rotationSpeed = 10f;
-
-	private float rotation;
-
-	private Rigidbody rb;
-
-	Vector3 curOffset, mouseOffset;
-	GameObject playerOffsetX;
-	public Vector2 rangePlayerPosX;
-
-	void Start()
-	{  
-		rb = GetComponent<Rigidbody>();
-		SetOffset();
-	}
-	void SetOffset()
-	{
-		playerOffsetX = new GameObject();
-		playerOffsetX.name = "GameObjectOffset";
-		playerOffsetX.transform.position = this.transform.position;
-	}
-	void Update()
-	{
-		rotation = Input.GetAxisRaw("Horizontal");
-	}
-
-	void FixedUpdate()
-	{
-
-		this.transform.position += this.transform.forward * Time.deltaTime * moveSpeed;
-
-		float pos = (Input.mousePosition.x * (rangePlayerPosX.y - rangePlayerPosX.x)) / Screen.width;
-		pos -= (rangePlayerPosX.y - rangePlayerPosX.x) / 2;
-
-		if (Input.GetMouseButtonDown(0))
-		{
-			playerOffsetX.transform.position = new Vector3(pos, this.transform.position.y, this.transform.position.z);
-			mouseOffset = this.transform.position - playerOffsetX.transform.position;
-		}
-		else if (Input.GetMouseButton(0))
-		{
-			playerOffsetX.transform.position = new Vector3(pos, this.transform.position.y, this.transform.position.z);
-			mouseOffset.y = mouseOffset.z = 0;
-			curOffset = playerOffsetX.transform.position + mouseOffset;
-			curOffset.x = Mathf.Clamp(curOffset.x, rangePlayerPosX.x, rangePlayerPosX.y);
-			this.transform.position = curOffset;
-		}
-	}
-}*/

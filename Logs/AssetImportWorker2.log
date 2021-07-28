@@ -1,0 +1,2147 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'en' Physical Memory: 16219 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Repos/Unity 3D/Shrinking Planet
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+56905
+Successfully changed project path to: D:/Repos/Unity 3D/Shrinking Planet
+D:/Repos/Unity 3D/Shrinking Planet
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Repos/Unity 3D/Shrinking Planet/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 Super with Max-Q Design (ID=0x1ed1)
+    Vendor:   
+    VRAM:     8011 MB
+    Driver:   27.21.14.5720
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001675 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.201 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001534 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 46.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.820 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2519 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.3 MB.
+System memory in use after: 190.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2950.
+Total: 2.655000 ms (FindLiveObjects: 0.287000 ms CreateObjectMapping: 0.162100 ms MarkObjects: 1.639100 ms  DeleteObjects: 0.565800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Animations/Play.controller
+  artifactKey: Guid(399d70f6d9d142747b41c16238b23c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Play.controller using Guid(399d70f6d9d142747b41c16238b23c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4a0a163e85ac5873f54a344f06b2bd') in 0.033613 seconds
+  Import took 0.039713 seconds .
+
+========================================================================
+Received Prepare
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.1 MB.
+System memory in use after: 137.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2950.
+Total: 2.944100 ms (FindLiveObjects: 0.254600 ms CreateObjectMapping: 0.110900 ms MarkObjects: 1.782800 ms  DeleteObjects: 0.794700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000967 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.747 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.0 MB.
+System memory in use after: 183.0 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2953.
+Total: 2.838800 ms (FindLiveObjects: 0.423100 ms CreateObjectMapping: 0.160400 ms MarkObjects: 1.617800 ms  DeleteObjects: 0.636500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000862 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.758 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.1 MB.
+System memory in use after: 183.0 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2956.
+Total: 2.663900 ms (FindLiveObjects: 0.306300 ms CreateObjectMapping: 0.114500 ms MarkObjects: 1.564100 ms  DeleteObjects: 0.678400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000998 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.1 MB.
+System memory in use after: 183.0 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2959.
+Total: 2.528500 ms (FindLiveObjects: 0.301200 ms CreateObjectMapping: 0.109500 ms MarkObjects: 1.490900 ms  DeleteObjects: 0.625700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001422 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.748 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.1 MB.
+System memory in use after: 183.0 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2962.
+Total: 7.578500 ms (FindLiveObjects: 0.576400 ms CreateObjectMapping: 0.337300 ms MarkObjects: 4.707200 ms  DeleteObjects: 1.954800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001158 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.0 MB.
+System memory in use after: 182.9 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2965.
+Total: 2.572900 ms (FindLiveObjects: 0.251200 ms CreateObjectMapping: 0.121700 ms MarkObjects: 1.550600 ms  DeleteObjects: 0.647300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1187.081439 seconds.
+  path: Assets/Materials/New Lighting Settings.lighting
+  artifactKey: Guid(ff647e2dcf68f134abdee44761262f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Lighting Settings.lighting using Guid(ff647e2dcf68f134abdee44761262f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f213ecc3b6280044c07a3f3f76eaa72') in 0.014028 seconds
+  Import took 0.026191 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000874 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.759 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.1 MB.
+System memory in use after: 183.0 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2968.
+Total: 2.929800 ms (FindLiveObjects: 0.330400 ms CreateObjectMapping: 0.090200 ms MarkObjects: 1.677900 ms  DeleteObjects: 0.830600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 78.924711 seconds.
+  path: Assets/MonsterTruck/Materials
+  artifactKey: Guid(030fe9cd389cc854d9244fa93cfe6752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterTruck/Materials using Guid(030fe9cd389cc854d9244fa93cfe6752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a77b8838bad4646e6dbbd9b245a2447') in 0.005850 seconds
+  Import took 0.018366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010577 seconds.
+  path: Assets/MonsterTruck/Materials/road_m.mat
+  artifactKey: Guid(a8d7b30b1fa16c043a230a96402ac679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterTruck/Materials/road_m.mat using Guid(a8d7b30b1fa16c043a230a96402ac679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5eac5bc767b7ed10da6787ead5cf2b') in 0.227744 seconds
+  Import took 0.234202 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000876 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.857 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.5 MB.
+System memory in use after: 188.5 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3049.
+Total: 2.854000 ms (FindLiveObjects: 0.263000 ms CreateObjectMapping: 0.109200 ms MarkObjects: 1.883100 ms  DeleteObjects: 0.597900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000984 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.854 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.5 MB.
+System memory in use after: 188.5 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3052.
+Total: 2.862900 ms (FindLiveObjects: 0.272000 ms CreateObjectMapping: 0.119300 ms MarkObjects: 1.777700 ms  DeleteObjects: 0.672900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 357.962293 seconds.
+  path: Assets/Prefabs/Crater.prefab
+  artifactKey: Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crater.prefab using Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa5047a81223294c55bea0eeb232a52') in 0.155111 seconds
+  Import took 0.159028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.844476 seconds.
+  path: Assets/Prefabs/Crater.prefab
+  artifactKey: Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crater.prefab using Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e53c249d96ef6f084b21824d500fba') in 0.016852 seconds
+  Import took 0.021991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.218616 seconds.
+  path: Assets/Prefabs/Crater.prefab
+  artifactKey: Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crater.prefab using Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d34ec98f406de7561c26337fe9e69a') in 0.016015 seconds
+  Import took 0.021514 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000821 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.816 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.8 MB.
+System memory in use after: 188.7 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3092.
+Total: 2.829600 ms (FindLiveObjects: 0.382700 ms CreateObjectMapping: 0.195000 ms MarkObjects: 1.592100 ms  DeleteObjects: 0.658800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 21.408803 seconds.
+  path: Assets/Prefabs/Crater.prefab
+  artifactKey: Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crater.prefab using Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0952742dedf7af50208f63795209282d') in 0.148176 seconds
+  Import took 0.152162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.099720 seconds.
+  path: Assets/Prefabs/Crater.prefab
+  artifactKey: Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crater.prefab using Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0952742dedf7af50208f63795209282d') in 0.011096 seconds
+  Import took 0.015668 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001008 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.8 MB.
+System memory in use after: 188.7 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3131.
+Total: 3.570200 ms (FindLiveObjects: 0.450900 ms CreateObjectMapping: 0.177700 ms MarkObjects: 1.924700 ms  DeleteObjects: 1.015900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 7.275030 seconds.
+  path: Assets/Prefabs/Crater.prefab
+  artifactKey: Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crater.prefab using Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59d880900c3c52bbdd773af24821990') in 0.152770 seconds
+  Import took 0.160223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.654035 seconds.
+  path: Assets/Prefabs/Crater.prefab
+  artifactKey: Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crater.prefab using Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b074c2a72e3a4b897bc60cc5be2f230') in 0.013167 seconds
+  Import took 0.018230 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000809 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.0 MB.
+System memory in use after: 188.9 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3170.
+Total: 3.070000 ms (FindLiveObjects: 0.387300 ms CreateObjectMapping: 0.125100 ms MarkObjects: 1.880000 ms  DeleteObjects: 0.676400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 105.197775 seconds.
+  path: Assets/Prefabs/Crater.prefab
+  artifactKey: Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crater.prefab using Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb58bcc9ccf5c34737824a285e7ac2d') in 0.159154 seconds
+  Import took 0.166432 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000802 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.1 MB.
+System memory in use after: 189.1 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3209.
+Total: 2.782100 ms (FindLiveObjects: 0.300300 ms CreateObjectMapping: 0.107000 ms MarkObjects: 1.669000 ms  DeleteObjects: 0.704300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 101.488177 seconds.
+  path: Assets/Prefabs/Crater.prefab
+  artifactKey: Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crater.prefab using Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edf4efd9ed26a7821429b64fd60a1b8') in 0.157073 seconds
+  Import took 0.164071 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001034 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.838 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.2 MB.
+System memory in use after: 189.2 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3248.
+Total: 2.785800 ms (FindLiveObjects: 0.275300 ms CreateObjectMapping: 0.111200 ms MarkObjects: 1.756700 ms  DeleteObjects: 0.640700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 171.952349 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(3d37e0aad44847a4b875f56df53d1d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(3d37e0aad44847a4b875f56df53d1d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62599de41e36e0f7ac0f32824de644aa') in 0.445134 seconds
+  Import took 0.449917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Prefabs/Player1.prefab
+  artifactKey: Guid(d5110e91ed6ec0745aad339ba6b5c432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player1.prefab using Guid(d5110e91ed6ec0745aad339ba6b5c432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0509250d6e21b37ac6dea9feb5e6521c') in 0.027155 seconds
+  Import took 0.031469 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000904 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.848 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.4 MB.
+System memory in use after: 189.4 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3287.
+Total: 2.879000 ms (FindLiveObjects: 0.234700 ms CreateObjectMapping: 0.101800 ms MarkObjects: 1.860300 ms  DeleteObjects: 0.681200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001316 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.928 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.3 MB.
+System memory in use after: 189.3 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3290.
+Total: 6.139700 ms (FindLiveObjects: 0.748600 ms CreateObjectMapping: 0.354600 ms MarkObjects: 4.350600 ms  DeleteObjects: 0.683200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 948.388302 seconds.
+  path: Assets/Prefabs/Crater.prefab
+  artifactKey: Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crater.prefab using Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbb80dd93961c8d13ded0eca33a5e96') in 0.158171 seconds
+  Import took 0.166271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.696354 seconds.
+  path: Assets/Prefabs/Crater.prefab
+  artifactKey: Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crater.prefab using Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a10b86ecb2c7f8622e45663e774b1e') in 0.012360 seconds
+  Import took 0.017192 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000856 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.6 MB.
+System memory in use after: 189.5 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3329.
+Total: 2.719100 ms (FindLiveObjects: 0.260900 ms CreateObjectMapping: 0.101500 ms MarkObjects: 1.685800 ms  DeleteObjects: 0.670000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 29.694910 seconds.
+  path: Assets/Prefabs/Crater.prefab
+  artifactKey: Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crater.prefab using Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20248143b18834fa67c32c89a40ff886') in 0.151840 seconds
+  Import took 0.159055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.224451 seconds.
+  path: Assets/Prefabs/Crater.prefab
+  artifactKey: Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crater.prefab using Guid(d25a971835cc8554aaabcdf6e719bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff1d89a6914e0700c4f6c8e69cd197b') in 0.012481 seconds
+  Import took 0.016635 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000872 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.7 MB.
+System memory in use after: 189.6 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3368.
+Total: 3.373800 ms (FindLiveObjects: 0.459700 ms CreateObjectMapping: 0.272600 ms MarkObjects: 1.977900 ms  DeleteObjects: 0.663000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000911 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.7 MB.
+System memory in use after: 189.6 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3371.
+Total: 2.950200 ms (FindLiveObjects: 0.346600 ms CreateObjectMapping: 0.167900 ms MarkObjects: 1.680000 ms  DeleteObjects: 0.754200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000881 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.868 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.7 MB.
+System memory in use after: 189.7 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3374.
+Total: 8.148400 ms (FindLiveObjects: 0.900900 ms CreateObjectMapping: 0.342100 ms MarkObjects: 4.998000 ms  DeleteObjects: 1.903700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 952.535135 seconds.
+  path: Assets/MonsterTruck/Materials/car_03_m1.mat
+  artifactKey: Guid(be2581e23627be347966f1b03086d3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterTruck/Materials/car_03_m1.mat using Guid(be2581e23627be347966f1b03086d3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cf5db2134850f1636ad6393baeb968') in 0.372151 seconds
+  Import took 0.382887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/MonsterTruck/Materials/car_03_m9.mat
+  artifactKey: Guid(abb1b86c127d38c449030246d6bc1d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterTruck/Materials/car_03_m9.mat using Guid(abb1b86c127d38c449030246d6bc1d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697fd2d34d493f9101c7344dd66fd2f1') in 0.022873 seconds
+  Import took 0.026593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.353396 seconds.
+  path: Assets/Arkham Interactive
+  artifactKey: Guid(08a6efaeabd189343b90a62be4966706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive using Guid(08a6efaeabd189343b90a62be4966706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01dd13f9a738d38436cf5b2f217bff39') in 0.001556 seconds
+  Import took 0.008537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.759563 seconds.
+  path: Assets/Arkham Interactive/Toony
+  artifactKey: Guid(62998676f42bb17428806e8ef46211b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony using Guid(62998676f42bb17428806e8ef46211b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d6e7f429e0311265da6aab3017fa57') in 0.001920 seconds
+  Import took 0.008853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.555163 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies
+  artifactKey: Guid(371a24bd28b5e7f419facde931001ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies using Guid(371a24bd28b5e7f419facde931001ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0a966d4088f98b0feb9d5922a899cf') in 0.004625 seconds
+  Import took 0.008669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.361009 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Cubemaps
+  artifactKey: Guid(a7b1315d9fe65924eb019df0a03051cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Cubemaps using Guid(a7b1315d9fe65924eb019df0a03051cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e9846986c7b14099188046780bdc6c') in 0.001426 seconds
+  Import took 0.007995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012274 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Cubemaps/BlueSky01.cubemap
+  artifactKey: Guid(de191f8ffb2561a4b8a41f72ceb16cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Cubemaps/BlueSky01.cubemap using Guid(de191f8ffb2561a4b8a41f72ceb16cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83135ea596e5792e12a00c226cc21f48') in 0.103041 seconds
+  Import took 0.109461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Cubemaps/PinkSunset02.cubemap
+  artifactKey: Guid(7f2569df4c993b245affa3e1d99d9a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Cubemaps/PinkSunset02.cubemap using Guid(7f2569df4c993b245affa3e1d99d9a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84bca44fa93d4b63927ef68dc03f160') in 0.079590 seconds
+  Import took 0.085651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Cubemaps/MoodySunrise01.cubemap
+  artifactKey: Guid(e811188ea6997a248920852a0e94888c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Cubemaps/MoodySunrise01.cubemap using Guid(e811188ea6997a248920852a0e94888c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d392b10367f8c6d9488b5619beb634') in 0.079026 seconds
+  Import took 0.085589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Cubemaps/StormySky.cubemap
+  artifactKey: Guid(7cdff05ceffc9f84b9341ce458db7d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Cubemaps/StormySky.cubemap using Guid(7cdff05ceffc9f84b9341ce458db7d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f497829c280da40ed7c807db489551a') in 0.109015 seconds
+  Import took 0.115145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Cubemaps/PinkSunset01.cubemap
+  artifactKey: Guid(7af5886facf001149a96ae4f9aa2631c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Cubemaps/PinkSunset01.cubemap using Guid(7af5886facf001149a96ae4f9aa2631c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3e38dfc91bbab6c5ee9fd1fb782cdb') in 0.077774 seconds
+  Import took 0.083945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Cubemaps/MoodySunrise02.cubemap
+  artifactKey: Guid(0514740d6899b9d46a22b4ea4519ca75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Cubemaps/MoodySunrise02.cubemap using Guid(0514740d6899b9d46a22b4ea4519ca75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa92e9786bf397fa05e81aae2facde37') in 0.080080 seconds
+  Import took 0.086175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Cubemaps/BlueSky02.cubemap
+  artifactKey: Guid(3b1359bf43783994da9234faab55c440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Cubemaps/BlueSky02.cubemap using Guid(3b1359bf43783994da9234faab55c440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6607466065afc313cc248bc466386c2') in 0.083179 seconds
+  Import took 0.086583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Cubemaps/GoldenHorizon.cubemap
+  artifactKey: Guid(395747037b63b554889e5b6c06dec1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Cubemaps/GoldenHorizon.cubemap using Guid(395747037b63b554889e5b6c06dec1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f15317fcc4651e06c5b2f7705979a11') in 0.076069 seconds
+  Import took 0.082267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Cubemaps/BrightMorning.cubemap
+  artifactKey: Guid(2b39781b554105245979ae105a7da9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Cubemaps/BrightMorning.cubemap using Guid(2b39781b554105245979ae105a7da9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031cd5e5b9375854969679ee86a665ff') in 0.078284 seconds
+  Import took 0.082117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.944070 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Cubemaps/Materials
+  artifactKey: Guid(5dbcfd4085b55484b9acbeb55da7efaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Cubemaps/Materials using Guid(5dbcfd4085b55484b9acbeb55da7efaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3207bbdd97931e41b30b48f5d3375a3') in 0.001262 seconds
+  Import took 0.013371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.361899 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Cubemaps/Materials/MoodySunrise01.mat
+  artifactKey: Guid(850e3e4982f3405429834122357b7ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Cubemaps/Materials/MoodySunrise01.mat using Guid(850e3e4982f3405429834122357b7ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165ff54fd98345642f542312f147e1a9') in 0.102779 seconds
+  Import took 0.109899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Cubemaps/Materials/MoodySunrise02.mat
+  artifactKey: Guid(86ca30c917c969540ad5030ba56a09b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Cubemaps/Materials/MoodySunrise02.mat using Guid(86ca30c917c969540ad5030ba56a09b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da66923ec2046fd3f04b2c7a37823f6f') in 0.080615 seconds
+  Import took 0.086998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Cubemaps/Materials/StormySky.mat
+  artifactKey: Guid(4b89e467474d5ca4da2a582c2db2171f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Cubemaps/Materials/StormySky.mat using Guid(4b89e467474d5ca4da2a582c2db2171f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d0af649c6bafdcb91ad0239e95fdfd') in 0.108315 seconds
+  Import took 0.114448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.545320 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials
+  artifactKey: Guid(789fda5e801ee094a8aeffb24ab911d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials using Guid(789fda5e801ee094a8aeffb24ab911d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fde0aff298447b127b472474734a32b') in 0.001684 seconds
+  Import took 0.008003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051647 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/BlueSky01.mat
+  artifactKey: Guid(bbe5e356a359cf44388ab49e187bb4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/BlueSky01.mat using Guid(bbe5e356a359cf44388ab49e187bb4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3767fa3b1ea62cfb39765979caf2b62c') in 0.111601 seconds
+  Import took 0.118182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/PinkSunset02_CubeMap.mat
+  artifactKey: Guid(a6e1db8922926634b918b754a7ef9219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/PinkSunset02_CubeMap.mat using Guid(a6e1db8922926634b918b754a7ef9219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e693fc860d7f4764750ef90c4bafa3') in 0.077776 seconds
+  Import took 0.080987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/StormySky_mobile.mat
+  artifactKey: Guid(10b2cc2d531a6f84eb975fd25b11d22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/StormySky_mobile.mat using Guid(10b2cc2d531a6f84eb975fd25b11d22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7346504e895bb3bb0368fc50d544e2ef') in 0.198289 seconds
+  Import took 0.201281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/BrightMorning_CubeMap.mat
+  artifactKey: Guid(0526090ba9bfbe34293051c3ce2e2200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/BrightMorning_CubeMap.mat using Guid(0526090ba9bfbe34293051c3ce2e2200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731c6362b44cb376a7e38d1298014fa8') in 0.078023 seconds
+  Import took 0.084052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/BlueSky01_mobile.mat
+  artifactKey: Guid(7f547ad3941a8e44ab2ed5a5f6315254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/BlueSky01_mobile.mat using Guid(7f547ad3941a8e44ab2ed5a5f6315254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e191c8125ee19e5342fea037ee3b678') in 0.074905 seconds
+  Import took 0.081720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/BlueSky02_CubeMap.mat
+  artifactKey: Guid(fa15184d0d280694b9b0c0bbf916e037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/BlueSky02_CubeMap.mat using Guid(fa15184d0d280694b9b0c0bbf916e037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1880612d2700e8641b718a8e132343e7') in 0.078604 seconds
+  Import took 0.082248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/StormySky.mat
+  artifactKey: Guid(046d04b5759b3f446ab7d5dc4bc3c273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/StormySky.mat using Guid(046d04b5759b3f446ab7d5dc4bc3c273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c24598a8d5b949a3addd2b832eea82') in 0.075419 seconds
+  Import took 0.078962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/MoodySunrise01.mat
+  artifactKey: Guid(13d7303f58d363744860f2acc819e499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/MoodySunrise01.mat using Guid(13d7303f58d363744860f2acc819e499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98dfeb3fb5bcfd19a79ad3ace5e833d') in 0.093704 seconds
+  Import took 0.097364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/PinkSunset02.mat
+  artifactKey: Guid(528db8e57a62422459493b7484b882f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/PinkSunset02.mat using Guid(528db8e57a62422459493b7484b882f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f139a486be05a521bdad1d243b7848f7') in 0.100358 seconds
+  Import took 0.106461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/PinkSunset01_CubeMap.mat
+  artifactKey: Guid(5f020138c24c54e4dba0c378642cd7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/PinkSunset01_CubeMap.mat using Guid(5f020138c24c54e4dba0c378642cd7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2932c95014e27fc8486ed8fb7a181113') in 0.082056 seconds
+  Import took 0.085171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/BlueSky02.mat
+  artifactKey: Guid(66204a2dd537858438bc1c57b0c90836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/BlueSky02.mat using Guid(66204a2dd537858438bc1c57b0c90836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a97878729c9ce880495f67c5c50f40a') in 0.091764 seconds
+  Import took 0.097896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/GoldenHorizon.mat
+  artifactKey: Guid(071977f859826fd46b45ae7e24c3bdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/GoldenHorizon.mat using Guid(071977f859826fd46b45ae7e24c3bdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e312f8b098517eb5d3c1877bcd5e685') in 0.097039 seconds
+  Import took 0.100354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/MoodySunrise01_mobile.mat
+  artifactKey: Guid(f0848ebbc83114347a69bff5300ed5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/MoodySunrise01_mobile.mat using Guid(f0848ebbc83114347a69bff5300ed5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d127f4c1ec071d19383e3b75598b2d') in 0.079614 seconds
+  Import took 0.085776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/PinkSunset01.mat
+  artifactKey: Guid(caf4f12b72f38f846b2f970c5a911b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/PinkSunset01.mat using Guid(caf4f12b72f38f846b2f970c5a911b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac977af76bda88d1d0eb50b3ea3bafb') in 0.093860 seconds
+  Import took 0.100046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/MoodySunrise02_CubeMap.mat
+  artifactKey: Guid(2d072d75c20414144bfb2d48419d2132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/MoodySunrise02_CubeMap.mat using Guid(2d072d75c20414144bfb2d48419d2132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8758d428abd7e7acbe374badb5aa835') in 0.077780 seconds
+  Import took 0.080781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/GoldenHorizon_mobile.mat
+  artifactKey: Guid(7f6262d2b85b14747a6e44fce38c63b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/GoldenHorizon_mobile.mat using Guid(7f6262d2b85b14747a6e44fce38c63b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3519c8f97040db8e316e0c921c2cfadd') in 0.076854 seconds
+  Import took 0.079979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/BrightMorning_mobile.mat
+  artifactKey: Guid(197a0928386bb034a897e9574dcac965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/BrightMorning_mobile.mat using Guid(197a0928386bb034a897e9574dcac965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3185c9de8903d802d5e43c46f72274bd') in 0.095010 seconds
+  Import took 0.098553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/BlueSky02_mobile.mat
+  artifactKey: Guid(fade81b8222df8d438165ac92d476d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/BlueSky02_mobile.mat using Guid(fade81b8222df8d438165ac92d476d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9023a84da56d0282d8ff2bea693d18') in 0.075688 seconds
+  Import took 0.081898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/StormySky_CubeMap.mat
+  artifactKey: Guid(78057f0976241154f988a2035905fc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/StormySky_CubeMap.mat using Guid(78057f0976241154f988a2035905fc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819b51f6ffc6c20c769ace5a04b1330f') in 0.106638 seconds
+  Import took 0.113017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/PinkSunset01_mobile.mat
+  artifactKey: Guid(92ea04747879c3f4db0f914847d6a400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/PinkSunset01_mobile.mat using Guid(92ea04747879c3f4db0f914847d6a400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ba73368b344b01ede62a50ba1d370b') in 0.081250 seconds
+  Import took 0.084720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/PinkSunset02_mobile.mat
+  artifactKey: Guid(790b0e76a2dc7be47abfabb1d3d99aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/PinkSunset02_mobile.mat using Guid(790b0e76a2dc7be47abfabb1d3d99aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba55d1562de59f26c85504c7d886352') in 0.082045 seconds
+  Import took 0.086024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/MoodySunrise02_mobile.mat
+  artifactKey: Guid(d38b94569e6ecde4092b59234b4d3abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/MoodySunrise02_mobile.mat using Guid(d38b94569e6ecde4092b59234b4d3abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a79240bf2ac802e672ac7ccba95a080') in 0.091719 seconds
+  Import took 0.095254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/BlueSky01_CubeMap.mat
+  artifactKey: Guid(4c38d6fccf031f147975922d9695236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/BlueSky01_CubeMap.mat using Guid(4c38d6fccf031f147975922d9695236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5cd0c8fea5469eec161a33ce8b88b18') in 0.083583 seconds
+  Import took 0.087047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/GoldenHorizon_CubeMap.mat
+  artifactKey: Guid(5704139db67bef94a8831d6934524f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/GoldenHorizon_CubeMap.mat using Guid(5704139db67bef94a8831d6934524f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e7dbf45675f1a2545a93373178cb17') in 0.080751 seconds
+  Import took 0.086626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/BrightMorning.mat
+  artifactKey: Guid(8382abc3a94345740ad657962381421d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/BrightMorning.mat using Guid(8382abc3a94345740ad657962381421d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd6986f05d3faa0f45ff018f326a331') in 0.073984 seconds
+  Import took 0.080281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/MoodySunrise01_CubeMap.mat
+  artifactKey: Guid(66016ac478f437349aa079e42aad2152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/MoodySunrise01_CubeMap.mat using Guid(66016ac478f437349aa079e42aad2152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ddd0d871fa231fcf4583b368a8d1c5') in 0.077731 seconds
+  Import took 0.084156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Materials/MoodySunrise02.mat
+  artifactKey: Guid(4c814e746e6cf4643aac18643f529320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Materials/MoodySunrise02.mat using Guid(4c814e746e6cf4643aac18643f529320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da5b74504a86121cacee43f2669c509') in 0.077901 seconds
+  Import took 0.084376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.411439 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures
+  artifactKey: Guid(c431fb2fd92b36f40b09780f1434ae4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures using Guid(c431fb2fd92b36f40b09780f1434ae4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edca04eaf551c55a9e1e952af21d1c30') in 0.001722 seconds
+  Import took 0.008535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067033 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky01_BK.png
+  artifactKey: Guid(57bdf03f4ab131043a2a45a9bc024377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky01_BK.png using Guid(57bdf03f4ab131043a2a45a9bc024377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68cd29a0ea734b5826d35bc504210ad') in 0.054457 seconds
+  Import took 0.061116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset02_LF.png
+  artifactKey: Guid(355f077a4a013a04b93abc34bfc7bf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset02_LF.png using Guid(355f077a4a013a04b93abc34bfc7bf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fceb237f1910ba3dd5e9c0113dca01') in 0.015935 seconds
+  Import took 0.019686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky02_LF.png
+  artifactKey: Guid(f5e535df8c032354783ffe27854340e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky02_LF.png using Guid(f5e535df8c032354783ffe27854340e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6405f4ecba1d794b5c311d2983d12a') in 0.021578 seconds
+  Import took 0.025093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/GoldenHorizon01_BK.png
+  artifactKey: Guid(da7c21e3514b87b46aa23c58f8973e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/GoldenHorizon01_BK.png using Guid(da7c21e3514b87b46aa23c58f8973e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0baf3e936f34570188b25f9731365868') in 0.016683 seconds
+  Import took 0.020178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset02_BK.png
+  artifactKey: Guid(bea87f2a8c43fc242b13056c8eef6b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset02_BK.png using Guid(bea87f2a8c43fc242b13056c8eef6b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3abc5f60a4ccf2ff647fb293aa3bc7') in 0.019764 seconds
+  Import took 0.023880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset01_UP.png
+  artifactKey: Guid(4ea65f28fb8bacf459d71d9c0008c264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset01_UP.png using Guid(4ea65f28fb8bacf459d71d9c0008c264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f963e251f72a25ed66f073239ce5bf6c') in 0.019473 seconds
+  Import took 0.023304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky02_RT.png
+  artifactKey: Guid(a5e71a13301adb44f81f45ecf37fe250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky02_RT.png using Guid(a5e71a13301adb44f81f45ecf37fe250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4affca309d7fda29e8588e5bd19d36b5') in 0.018796 seconds
+  Import took 0.022970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset01_LF.png
+  artifactKey: Guid(4535aee9e9c63f64181e1e2c44032100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset01_LF.png using Guid(4535aee9e9c63f64181e1e2c44032100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007bd75c77f15548fb4b7d5fd31fc783') in 0.020067 seconds
+  Import took 0.023945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise02_DN.jpg
+  artifactKey: Guid(54026c641623c5545a0db89d9d33ca87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise02_DN.jpg using Guid(54026c641623c5545a0db89d9d33ca87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e449e53cada2513a171a1867ea3991') in 0.017527 seconds
+  Import took 0.021948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/BrightMorning01_BK.png
+  artifactKey: Guid(54d66d0d3d0a78042878d941acba9079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/BrightMorning01_BK.png using Guid(54d66d0d3d0a78042878d941acba9079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c97b55450cc77ca2ff8596a597ebb4') in 0.016620 seconds
+  Import took 0.020526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise01_RT.jpg
+  artifactKey: Guid(d2b33b4fee7833148a3180d8f6a8f53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise01_RT.jpg using Guid(d2b33b4fee7833148a3180d8f6a8f53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d0092d5e1e88cdbacd6d12dbf01f69') in 0.021825 seconds
+  Import took 0.025253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky01_LF.png
+  artifactKey: Guid(bdb334489b51a73488d4404335d97c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky01_LF.png using Guid(bdb334489b51a73488d4404335d97c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468c9b1856c00f8b02060c625a497826') in 0.016460 seconds
+  Import took 0.020267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise02_RT.jpg
+  artifactKey: Guid(5c4a4777d3831534d8e1a9844e847fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise02_RT.jpg using Guid(5c4a4777d3831534d8e1a9844e847fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ec8196402b776f2200617bfb2a01a1') in 0.017671 seconds
+  Import took 0.021282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/BrightMorning01_FR.png
+  artifactKey: Guid(c0365a31c96ab8846b78de1091befba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/BrightMorning01_FR.png using Guid(c0365a31c96ab8846b78de1091befba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddde51122a99da1f0fbd7082ebdcf464') in 0.015585 seconds
+  Import took 0.019020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/GoldenHorizon01_LF.png
+  artifactKey: Guid(8a38692fcba609343af21daafdfe7fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/GoldenHorizon01_LF.png using Guid(8a38692fcba609343af21daafdfe7fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ad4e1cf98aefaeece86dfc111a3124') in 0.017934 seconds
+  Import took 0.021247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky01_FR.png
+  artifactKey: Guid(0da1c0d92cd418c4c8b9a6ebad46da97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky01_FR.png using Guid(0da1c0d92cd418c4c8b9a6ebad46da97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e80b224b632b8fa2d086ebdbfd9f272') in 0.016341 seconds
+  Import took 0.022482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise02_UP.jpg
+  artifactKey: Guid(301cb5cd5d27bbc46a28ac0fd0cf1804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise02_UP.jpg using Guid(301cb5cd5d27bbc46a28ac0fd0cf1804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5fec1743c56d4a3511b4042ec02edb') in 0.029086 seconds
+  Import took 0.040098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise01_LF.jpg
+  artifactKey: Guid(055207ecdfe46d240a6ba18db68dc471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise01_LF.jpg using Guid(055207ecdfe46d240a6ba18db68dc471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb714fa946a77b90792b39ffdf9f5d5') in 0.017466 seconds
+  Import took 0.021271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise02_FR.jpg
+  artifactKey: Guid(d324ce0a324529c4b82da6ecd379d436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise02_FR.jpg using Guid(d324ce0a324529c4b82da6ecd379d436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046a6e089ca6d9f5f2d28a9bbd4ebe47') in 0.016044 seconds
+  Import took 0.019982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky01_RT.png
+  artifactKey: Guid(b37f4772a3e5f6941a6fb13cd6e0c474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky01_RT.png using Guid(b37f4772a3e5f6941a6fb13cd6e0c474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988f1e97ebb18fa028026c0a896cb9e7') in 0.016066 seconds
+  Import took 0.019769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset01_RT.png
+  artifactKey: Guid(3ef03d3d78d0fc245a24cb9574fea605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset01_RT.png using Guid(3ef03d3d78d0fc245a24cb9574fea605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46796944bfd7761552ba58427667d256') in 0.018400 seconds
+  Import took 0.021659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset01_FR.png
+  artifactKey: Guid(9de0476b83985c84e918d9bcdbf505f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset01_FR.png using Guid(9de0476b83985c84e918d9bcdbf505f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a34ec9bbcd06a601ad2065049a2b681') in 0.016189 seconds
+  Import took 0.019680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/GoldenHorizon01_DN.png
+  artifactKey: Guid(8add143fd6c83b64ca6368aa4b0be577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/GoldenHorizon01_DN.png using Guid(8add143fd6c83b64ca6368aa4b0be577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac3afb2bf81ec218352d13a2c72bdfa') in 0.020771 seconds
+  Import took 0.024269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise01_UP.jpg
+  artifactKey: Guid(5913ce21f0b8cbb46adaa8ed1c8f6afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise01_UP.jpg using Guid(5913ce21f0b8cbb46adaa8ed1c8f6afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9b771303bd63907259c690d14a9767') in 0.015817 seconds
+  Import took 0.019157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/StormySky01_DN.png
+  artifactKey: Guid(789e7f40746480c47bfc669dba60e107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/StormySky01_DN.png using Guid(789e7f40746480c47bfc669dba60e107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8678db1a2db76d67be4c32b375c8f4d') in 0.021282 seconds
+  Import took 0.024650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset01_BK.png
+  artifactKey: Guid(be5dc7c8cece67b49b9e22a113e3cc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset01_BK.png using Guid(be5dc7c8cece67b49b9e22a113e3cc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc1e4c5134d8b652b2fe2bd2fb55a4b') in 0.015638 seconds
+  Import took 0.019118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise02_LF.jpg
+  artifactKey: Guid(f5d7c8bf9f745de4488cfa2a8a162ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise02_LF.jpg using Guid(f5d7c8bf9f745de4488cfa2a8a162ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4a54d6d910abae2828244562a16136') in 0.016660 seconds
+  Import took 0.020072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/GoldenHorizon01_FR.png
+  artifactKey: Guid(4f1e46a1b5050934a89928fa0b70add6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/GoldenHorizon01_FR.png using Guid(4f1e46a1b5050934a89928fa0b70add6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be1ff8e645b15fee6d1e45170737619') in 0.015990 seconds
+  Import took 0.021073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/BrightMorning01_LF.png
+  artifactKey: Guid(3be15411c41578a4c8eea6bf90dcc469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/BrightMorning01_LF.png using Guid(3be15411c41578a4c8eea6bf90dcc469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c192f0c9e42360caec430ce79d1a5a') in 0.017320 seconds
+  Import took 0.021211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky02_FR.png
+  artifactKey: Guid(642fe92a970d5734191ab325f3cfdeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky02_FR.png using Guid(642fe92a970d5734191ab325f3cfdeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3791ce730154f460067c8191cedd4a86') in 0.015114 seconds
+  Import took 0.018668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/GoldenHorizon01_UP.png
+  artifactKey: Guid(507508518f00e5449bddd2659180a0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/GoldenHorizon01_UP.png using Guid(507508518f00e5449bddd2659180a0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90198c6c54abb5204079031b5c1cdcd') in 0.016410 seconds
+  Import took 0.020228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset02_RT.png
+  artifactKey: Guid(46453e2418050b74fa8cb3cf0d5ff3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset02_RT.png using Guid(46453e2418050b74fa8cb3cf0d5ff3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a97635ca6a271fd09e95c1c471377b') in 0.016352 seconds
+  Import took 0.019974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/BrightMorning01_RT.png
+  artifactKey: Guid(1656b50b061160a44a304b8307eb725d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/BrightMorning01_RT.png using Guid(1656b50b061160a44a304b8307eb725d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3b4888897c5f6a0d67bc8645863524') in 0.017498 seconds
+  Import took 0.020767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky01_UP.png
+  artifactKey: Guid(f8ab40e2e177cc34e8b453c50052db34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky01_UP.png using Guid(f8ab40e2e177cc34e8b453c50052db34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a28ecb0943b5cd43accd65cdba23411') in 0.018604 seconds
+  Import took 0.021887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise01_FR.jpg
+  artifactKey: Guid(3ffc2b7b511a6834eb1aaa144465ffde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise01_FR.jpg using Guid(3ffc2b7b511a6834eb1aaa144465ffde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba460f413be35f8957ee13cd9c1b6a4') in 0.019591 seconds
+  Import took 0.023001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky01_DN.png
+  artifactKey: Guid(0542d025081ed1346b859d82b6d02476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky01_DN.png using Guid(0542d025081ed1346b859d82b6d02476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8966b3bf6b32d22df4f4049853b866c') in 0.018447 seconds
+  Import took 0.021945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset02_FR.png
+  artifactKey: Guid(e24ba549d51f8b54cae25c811e059fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset02_FR.png using Guid(e24ba549d51f8b54cae25c811e059fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb818d4ba03925ec54f768a3fa068b3b') in 0.019741 seconds
+  Import took 0.023643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/GoldenHorizon01_RT.png
+  artifactKey: Guid(728c75f18436e8b47880f3810e130978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/GoldenHorizon01_RT.png using Guid(728c75f18436e8b47880f3810e130978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbeb6d81f6426bad8965f9074809f5da') in 0.019752 seconds
+  Import took 0.023001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset02_DN.png
+  artifactKey: Guid(bc13480c50f15f54f84b8f1cd43d0e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset02_DN.png using Guid(bc13480c50f15f54f84b8f1cd43d0e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fcde13735a7a1843d060b9e5da04c89') in 0.017474 seconds
+  Import took 0.020809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise01_DN.jpg
+  artifactKey: Guid(be9b1d3dcae821746b415b554ba597ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise01_DN.jpg using Guid(be9b1d3dcae821746b415b554ba597ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdf10789c63e7c332020ec451fe729a') in 0.015332 seconds
+  Import took 0.018414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/StormySky01_LF.png
+  artifactKey: Guid(53622a9086d94de49949e7227b4fb1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/StormySky01_LF.png using Guid(53622a9086d94de49949e7227b4fb1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21f2fdb57b64b9d85b47322dfc122a1') in 0.016278 seconds
+  Import took 0.019785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/StormySky01_RT.png
+  artifactKey: Guid(9649748ae9f99a741bd787390e01c692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/StormySky01_RT.png using Guid(9649748ae9f99a741bd787390e01c692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdd9fe1e7eccbe3da62f03b9446e81f') in 0.017290 seconds
+  Import took 0.020992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset01_DN.png
+  artifactKey: Guid(41733e2f991fed44d90fa1c4f5f0bfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset01_DN.png using Guid(41733e2f991fed44d90fa1c4f5f0bfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881208bc52a027194336828c9346c49f') in 0.015618 seconds
+  Import took 0.019350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/BrightMorning01_UP.png
+  artifactKey: Guid(292071fdbd5156949b71129416ca2bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/BrightMorning01_UP.png using Guid(292071fdbd5156949b71129416ca2bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee57dfa63a54ff8686c8d40cc7e8d370') in 0.016433 seconds
+  Import took 0.020361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky02_UP.png
+  artifactKey: Guid(edf3439f8a81d3e4494530a8b83e283b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky02_UP.png using Guid(edf3439f8a81d3e4494530a8b83e283b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8adb8f408383f96c040f45610c022a7a') in 0.019567 seconds
+  Import took 0.023314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky02_BK.png
+  artifactKey: Guid(e890c99641c80204eb9982ad498b3e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky02_BK.png using Guid(e890c99641c80204eb9982ad498b3e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8712e858fb7d6219e6dfcd1968357b4e') in 0.016318 seconds
+  Import took 0.019803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset02_UP.png
+  artifactKey: Guid(2c196b3015c1c4a438ababb816c2d148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/PinkSunset02_UP.png using Guid(2c196b3015c1c4a438ababb816c2d148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995e770cb90705ba5da204aa1ebccd93') in 0.017161 seconds
+  Import took 0.020767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/StormySky01_FR.png
+  artifactKey: Guid(77bb4398ad5fad849b7bdcddbb62cb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/StormySky01_FR.png using Guid(77bb4398ad5fad849b7bdcddbb62cb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03a4c0d83864b6a66ab3d299c7d8135') in 0.017032 seconds
+  Import took 0.020436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/StormySky01_BK.png
+  artifactKey: Guid(5ed170ea2a638c043b7e9286b9e7b3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/StormySky01_BK.png using Guid(5ed170ea2a638c043b7e9286b9e7b3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e56168cc2275c6ea8253e8faac44c0a') in 0.023699 seconds
+  Import took 0.029442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004276 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise01_BK.jpg
+  artifactKey: Guid(daa4e8195677b7649891d802a08ba1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise01_BK.jpg using Guid(daa4e8195677b7649891d802a08ba1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7bbe3bc06fa0e48f56926264ba0c1de') in 0.016994 seconds
+  Import took 0.020812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise02_BK.jpg
+  artifactKey: Guid(72fc500564487e742a2cdd533b538b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/MoodySunrise02_BK.jpg using Guid(72fc500564487e742a2cdd533b538b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7907fbf130f3b4d11637340d56c8215') in 0.016453 seconds
+  Import took 0.019989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky02_DN.png
+  artifactKey: Guid(d23d367acf2cf234fa2583c8faa26001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/BlueSky02_DN.png using Guid(d23d367acf2cf234fa2583c8faa26001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf89cd1b3081fe4aae6af1565a75648') in 0.019171 seconds
+  Import took 0.022987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Textures/BrightMorning01_DN.png
+  artifactKey: Guid(2acb60f4766d8f040adac4302f2074db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Textures/BrightMorning01_DN.png using Guid(2acb60f4766d8f040adac4302f2074db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a15188e19f6bd42fbd81abd57c6f2c3') in 0.015775 seconds
+  Import took 0.019561 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000906 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.152 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.3 MB.
+System memory in use after: 190.2 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3419.
+Total: 3.028100 ms (FindLiveObjects: 0.361800 ms CreateObjectMapping: 0.144100 ms MarkObjects: 1.756100 ms  DeleteObjects: 0.764800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000859 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.141 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.3 MB.
+System memory in use after: 190.3 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3422.
+Total: 6.312100 ms (FindLiveObjects: 1.022400 ms CreateObjectMapping: 0.450800 ms MarkObjects: 4.103700 ms  DeleteObjects: 0.733900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 188.074841 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Cubemaps/Materials/BlueSky01.mat
+  artifactKey: Guid(b5352382fe0caad458253570054b95c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Cubemaps/Materials/BlueSky01.mat using Guid(b5352382fe0caad458253570054b95c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b08f5defc38381b30d24dd6e595ceb4') in 0.199939 seconds
+  Import took 0.204346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Cubemaps/Materials/GoldenHorizon.mat
+  artifactKey: Guid(5394ffaeabaaa564faa8b613646aaba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Cubemaps/Materials/GoldenHorizon.mat using Guid(5394ffaeabaaa564faa8b613646aaba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80aef9ee3a05c2968bf77c507d328431') in 0.076637 seconds
+  Import took 0.079651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Cubemaps/Materials/PinkSunset02.mat
+  artifactKey: Guid(bf32a89528fcd994c85114ca154d12d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Cubemaps/Materials/PinkSunset02.mat using Guid(bf32a89528fcd994c85114ca154d12d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e01cad5777dcd4943e0eac34de28d4') in 0.079854 seconds
+  Import took 0.086307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Arkham Interactive/Toony/Skies/Cubemaps/Materials/BlueSky02.mat
+  artifactKey: Guid(629193ed9c11ae142ba19110f8e61739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arkham Interactive/Toony/Skies/Cubemaps/Materials/BlueSky02.mat using Guid(629193ed9c11ae142ba19110f8e61739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cadcf88fea30f2941250fe06287ad6') in 0.080368 seconds
+  Import took 0.083539 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000948 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.896 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.5 MB.
+System memory in use after: 190.4 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3461.
+Total: 3.175600 ms (FindLiveObjects: 0.370800 ms CreateObjectMapping: 0.201300 ms MarkObjects: 1.880400 ms  DeleteObjects: 0.722100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 216.312702 seconds.
+  path: Assets/DownloadedAssets/Cartoon_Tank_Free/CTF_3dModel/СTF_TankFree.FBX
+  artifactKey: Guid(3d210b2be9d4b9144b53828dfc2e73e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Cartoon_Tank_Free/CTF_3dModel/СTF_TankFree.FBX using Guid(3d210b2be9d4b9144b53828dfc2e73e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa06378e57945729fbe9d80bb939468a') in 0.540839 seconds
+  Import took 0.546600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.422161 seconds.
+  path: Assets/DownloadedAssets/Cartoon_Tank_Free/CTF_Scenes
+  artifactKey: Guid(f4769f40592ffcf419059e6687a6e2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Cartoon_Tank_Free/CTF_Scenes using Guid(f4769f40592ffcf419059e6687a6e2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b94a46b7b200080c68b962f476f058') in 0.001689 seconds
+  Import took 0.009560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.725519 seconds.
+  path: Assets/DownloadedAssets/Cartoon_Tank_Free/CTF_Prefabs/TankFree_Blue.prefab
+  artifactKey: Guid(a30540c41d7d5ed4281d72b4916afb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Cartoon_Tank_Free/CTF_Prefabs/TankFree_Blue.prefab using Guid(a30540c41d7d5ed4281d72b4916afb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376c19a8cb479957700e96e9ccf2b3ad') in 0.219928 seconds
+  Import took 0.224432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.050237 seconds.
+  path: Assets/DownloadedAssets/Zelalkat/Cartoon Car-Vehicle Pack/Assets/Prefabs/monster truck.prefab
+  artifactKey: Guid(7aaabd0d3b0a06c4bb1e0737142a9dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Zelalkat/Cartoon Car-Vehicle Pack/Assets/Prefabs/monster truck.prefab using Guid(7aaabd0d3b0a06c4bb1e0737142a9dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcae87a9648dae0d62b9fb073c644cef') in 0.028136 seconds
+  Import took 0.033251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001569 seconds.
+  path: Assets/DownloadedAssets/Zelalkat/Cartoon Car-Vehicle Pack/Assets/Prefabs/monster truck.prefab
+  artifactKey: Guid(7aaabd0d3b0a06c4bb1e0737142a9dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Zelalkat/Cartoon Car-Vehicle Pack/Assets/Prefabs/monster truck.prefab using Guid(7aaabd0d3b0a06c4bb1e0737142a9dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcae87a9648dae0d62b9fb073c644cef') in 0.011351 seconds
+  Import took 0.015531 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000928 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.8 MB.
+System memory in use after: 190.8 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3503.
+Total: 2.913900 ms (FindLiveObjects: 0.357400 ms CreateObjectMapping: 0.107900 ms MarkObjects: 1.756100 ms  DeleteObjects: 0.691500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000889 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.909 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2409 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.8 MB.
+System memory in use after: 190.7 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3504.
+Total: 3.544300 ms (FindLiveObjects: 0.511200 ms CreateObjectMapping: 0.218800 ms MarkObjects: 2.108200 ms  DeleteObjects: 0.705300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 68.405595 seconds.
+  path: Assets/Scenes/Menu/Menu.unity
+  artifactKey: Guid(e69afb3fa6ffdf44eadfc32647a63b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu/Menu.unity using Guid(e69afb3fa6ffdf44eadfc32647a63b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e532d817b84cf1961be992f836b9158') in 0.009099 seconds
+  Import took 0.015531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092795 seconds.
+  path: Assets/Scenes/Menu/Menu.unity
+  artifactKey: Guid(e69afb3fa6ffdf44eadfc32647a63b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu/Menu.unity using Guid(e69afb3fa6ffdf44eadfc32647a63b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e532d817b84cf1961be992f836b9158') in 0.002194 seconds
+  Import took 0.005589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.971651 seconds.
+  path: Assets/DownloadedAssets/MonsterTruck/Prefabs/monster_car_03.prefab
+  artifactKey: Guid(e87464d2c0f711d4fb7b09c06b1b7a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/MonsterTruck/Prefabs/monster_car_03.prefab using Guid(e87464d2c0f711d4fb7b09c06b1b7a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f106988064c60538ecea071fc0ec35f') in 0.178743 seconds
+  Import took 0.183495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.772301 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(d5110e91ed6ec0745aad339ba6b5c432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(d5110e91ed6ec0745aad339ba6b5c432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe65bd27eb80fe3c02a4ed1705ec7a2') in 0.027160 seconds
+  Import took 0.032109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.182738 seconds.
+  path: Assets/Materials/Crater.mat
+  artifactKey: Guid(6913492f43859524887a8e9e8abba8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Crater.mat using Guid(6913492f43859524887a8e9e8abba8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37dc57c27324783e8ab8d6ab472301b') in 0.020157 seconds
+  Import took 0.024347 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001044 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.914 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2409 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.8 MB.
+System memory in use after: 190.7 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3543.
+Total: 3.005100 ms (FindLiveObjects: 0.330100 ms CreateObjectMapping: 0.106300 ms MarkObjects: 1.766300 ms  DeleteObjects: 0.801400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000972 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.916 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2409 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.9 MB.
+System memory in use after: 190.8 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3546.
+Total: 3.115800 ms (FindLiveObjects: 0.328300 ms CreateObjectMapping: 0.108100 ms MarkObjects: 1.928300 ms  DeleteObjects: 0.750300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000914 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2409 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.9 MB.
+System memory in use after: 190.8 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3549.
+Total: 4.082600 ms (FindLiveObjects: 0.639000 ms CreateObjectMapping: 0.190200 ms MarkObjects: 2.301200 ms  DeleteObjects: 0.950700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001074 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.003 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2409 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.9 MB.
+System memory in use after: 190.9 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3552.
+Total: 3.192100 ms (FindLiveObjects: 0.314300 ms CreateObjectMapping: 0.104600 ms MarkObjects: 2.109400 ms  DeleteObjects: 0.662700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001025 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.027 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2409 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.9 MB.
+System memory in use after: 190.9 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3555.
+Total: 4.073300 ms (FindLiveObjects: 0.529800 ms CreateObjectMapping: 0.251000 ms MarkObjects: 2.274900 ms  DeleteObjects: 1.015200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001227 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.032 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2409 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.9 MB.
+System memory in use after: 190.9 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3558.
+Total: 3.060400 ms (FindLiveObjects: 0.332100 ms CreateObjectMapping: 0.123200 ms MarkObjects: 1.827000 ms  DeleteObjects: 0.776900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1429.068554 seconds.
+  path: Assets/Scenes/MainScene/MainScene.unity
+  artifactKey: Guid(27965b73307175747b9c490bd70a864d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/MainScene.unity using Guid(27965b73307175747b9c490bd70a864d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd70e235b3c816eae5b75288117542c5') in 0.015191 seconds
+  Import took 0.019774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.374924 seconds.
+  path: Assets/Scenes/Menu/Menu.unity
+  artifactKey: Guid(e69afb3fa6ffdf44eadfc32647a63b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu/Menu.unity using Guid(e69afb3fa6ffdf44eadfc32647a63b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f67da11302618e325573f0dc87e6da4') in 0.001747 seconds
+  Import took 0.008770 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001124 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.066 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2409 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.0 MB.
+System memory in use after: 191.0 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3561.
+Total: 3.891500 ms (FindLiveObjects: 0.588600 ms CreateObjectMapping: 0.227600 ms MarkObjects: 2.195100 ms  DeleteObjects: 0.878100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 82.670758 seconds.
+  path: Assets/Scenes/Menu/Menu.unity
+  artifactKey: Guid(e69afb3fa6ffdf44eadfc32647a63b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu/Menu.unity using Guid(e69afb3fa6ffdf44eadfc32647a63b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5c08ebc3bdeb3cdc1f4e99b0321713') in 0.014071 seconds
+  Import took 0.018935 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001634 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.048 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2409 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.0 MB.
+System memory in use after: 191.0 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3564.
+Total: 3.573100 ms (FindLiveObjects: 0.390000 ms CreateObjectMapping: 0.162800 ms MarkObjects: 2.230400 ms  DeleteObjects: 0.788300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001539 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.067 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2409 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.0 MB.
+System memory in use after: 191.0 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3567.
+Total: 3.757100 ms (FindLiveObjects: 0.531500 ms CreateObjectMapping: 0.153700 ms MarkObjects: 2.320500 ms  DeleteObjects: 0.750100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000

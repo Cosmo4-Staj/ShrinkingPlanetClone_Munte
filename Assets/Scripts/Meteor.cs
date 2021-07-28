@@ -9,7 +9,7 @@ public class Meteor : PlayerGravityBody
     public ParticleSystem trail;
 
     void OnCollisionEnter(Collision collision)
-    { 
+    {
         /*Quaternion rot = Quaternion.LookRotation(transform.position.normalized);
         rot *= Quaternion.Euler(90f, 0f, 0f);*/
 
