@@ -18,6 +18,8 @@ public class PlayerManager : MonoBehaviour
     private Touch theTouch;
     private Vector2 touchStartPosition, touchEndPosition;
 
+    public AudioClip crashSound;
+
     void Start()
     {
         rb = this.GetComponent<Rigidbody>();
@@ -64,6 +66,7 @@ public class PlayerManager : MonoBehaviour
     {
         if (collision.gameObject.tag == "Meteor")
         {
+            AudioSource.PlayClipAtPoint(crashSound, transform.position, 1);
             Instantiate(deathEffect, transform.position, transform.rotation);
             GameManager.instance.OnLevelFailed();
 

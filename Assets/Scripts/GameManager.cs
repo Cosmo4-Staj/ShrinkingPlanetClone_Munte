@@ -41,13 +41,14 @@ public class GameManager : MonoBehaviour
         isGameStarted = true;
     }
 
-    public void OnLevelCompleted()
-    {
-    }
-
     public void OnLevelFailed()
     {
         isGameEnded = true;
         gameOverUI.SetActive(true);
+    }
+
+    public void OnLevelEnded()
+    {
+        Application.Quit();
     }
 }
